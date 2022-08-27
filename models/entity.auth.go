@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
+	util "github.com/j2eevip/gin-restful-example/utils"
 	"gorm.io/gorm"
 )
 

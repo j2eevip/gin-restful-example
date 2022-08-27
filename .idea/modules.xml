@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/gin-rest-api.iml" filepath="$PROJECT_DIR$/.idea/gin-rest-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/gin-restful-example.iml" filepath="$PROJECT_DIR$/.idea/gin-restful-example.iml" />
     </modules>
   </component>
 </project>

@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	resetAuth "github.com/restuwahyu13/gin-rest-api/controllers/auth-controllers/reset"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
+	resetAuth "github.com/j2eevip/gin-restful-example/controllers/auth-controllers/reset"
+	util "github.com/j2eevip/gin-restful-example/utils"
 	gpc "github.com/restuwahyu13/go-playground-converter"
 	"github.com/sirupsen/logrus"
 )

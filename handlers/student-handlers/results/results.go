@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	resultsStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/results"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
+	resultsStudent "github.com/j2eevip/gin-restful-example/controllers/student-controllers/results"
+	util "github.com/j2eevip/gin-restful-example/utils"
 )
 
 type handler struct {

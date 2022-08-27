@@ -1,13 +1,12 @@
 package config
 
 import (
-	"os"
-
-	model "github.com/restuwahyu13/gin-rest-api/models"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
+	model "github.com/j2eevip/gin-restful-example/models"
+	util "github.com/j2eevip/gin-restful-example/utils"
 	"github.com/sirupsen/logrus"
-	"gorm.io/driver/postgres"
+	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
+	"os"
 )
 
 func Connection() *gorm.DB {
@@ -19,7 +18,7 @@ func Connection() *gorm.DB {
 		databaseURI <- os.Getenv("DATABASE_URI_PROD")
 	}
 
-	db, err := gorm.Open(postgres.Open(<-databaseURI), &gorm.Config{})
+	db, err := gorm.Open(mysql.Open(<-databaseURI), &gorm.Config{})
 
 	if err != nil {
 		defer logrus.Info("Connection to Database Failed")

@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	util "github.com/restuwahyu13/gin-rest-api/utils"
+	util "github.com/j2eevip/gin-restful-example/utils"
 )
 
 type UnathorizatedError struct {

@@ -2,17 +2,17 @@ package route
 
 import (
 	"github.com/gin-gonic/gin"
-	createStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/create"
-	deleteStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/delete"
-	resultStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/result"
-	resultsStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/results"
-	updateStudent "github.com/restuwahyu13/gin-rest-api/controllers/student-controllers/update"
-	handlerCreateStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/create"
-	handlerDeleteStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/delete"
-	handlerResultStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/result"
-	handlerResultsStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/results"
-	handlerUpdateStudent "github.com/restuwahyu13/gin-rest-api/handlers/student-handlers/update"
-	middleware "github.com/restuwahyu13/gin-rest-api/middlewares"
+	createStudent "github.com/j2eevip/gin-restful-example/controllers/student-controllers/create"
+	deleteStudent "github.com/j2eevip/gin-restful-example/controllers/student-controllers/delete"
+	resultStudent "github.com/j2eevip/gin-restful-example/controllers/student-controllers/result"
+	resultsStudent "github.com/j2eevip/gin-restful-example/controllers/student-controllers/results"
+	updateStudent "github.com/j2eevip/gin-restful-example/controllers/student-controllers/update"
+	handlerCreateStudent "github.com/j2eevip/gin-restful-example/handlers/student-handlers/create"
+	handlerDeleteStudent "github.com/j2eevip/gin-restful-example/handlers/student-handlers/delete"
+	handlerResultStudent "github.com/j2eevip/gin-restful-example/handlers/student-handlers/result"
+	handlerResultsStudent "github.com/j2eevip/gin-restful-example/handlers/student-handlers/results"
+	handlerUpdateStudent "github.com/j2eevip/gin-restful-example/handlers/student-handlers/update"
+	middleware "github.com/j2eevip/gin-restful-example/middlewares"
 	"gorm.io/gorm"
 )
 
