@@ -11,7 +11,6 @@ import (
 
 func Connection() *gorm.DB {
 	databaseURI := make(chan string, 1)
-
 	if os.Getenv("GO_ENV") != "production" {
 		databaseURI <- util.GodotEnv("DATABASE_URI_DEV")
 	} else {

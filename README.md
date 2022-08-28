@@ -72,6 +72,4 @@ Example golang using gin framework everything you need, i create this tutorial s
   $ docker-compose down | make dcd
   ```
 
-### Author
-
-- [Restu Wahyu Saputra](https://github.com/restuwahyu13)
+Thanks Author: [Restu Wahyu Saputra](https://github.com/restuwahyu13)
